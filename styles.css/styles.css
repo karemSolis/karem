@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(1, 8, 32);
+    color: aliceblue;
+}
+
+/* padre */
+header {
+    display: flex;
+    width: 1349px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+/* padre class */
+.textoInicialCentrado {
+    text-align: center;
+    font-family: open, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* padre de tituloPrincipal */
+.contenedor_h1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.tituloPrincipal {
+    font-family: open, sans-serif;
+    font-size: 42px;
+    font-weight:lighter;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* padre de ul */
+
+.categorias_paginas { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
+/* hijo de div categoria_paginas*/
+.categorias_paginas ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    flex-direction: row;
+    font-size: 14px
+
+    
+}
+
+/* ul padre de li */
+ul li {
+    flex-direction: row;
+    margin: 20px;
+    
+}
+
+/* pertenece a otras páginas */
+.tituloCategorias {
+    font-family: open, sans-serif;
+    font-size: 20px;
+}
+
+
+.descrpciónProyecto {
+    font-family: open, sans-serif;
+    font-size: 16px;
+}
+
+.img_home_uno {
+    display: flex;
+
+
+}
+
+.img_home_uno img {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 33px;
+    width: 20%;
+}
+
+.img_home_dos {
+    display: flex;
+
+
+}
+
+.img_home_dos img {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 33px;
+    width: 20%;
+}
+
+.imagenesVitrinaOtras img {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    
+    
+}
+
+
+footer {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    justify-content: flex-end;
+}
+
+.logo_link{
+    background-color: black;
+}
+
+footer img {
+    background-color: black;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    width: 70px
+}
+
+footer a {
+    background-color: black;
+    flex-direction: row ;
+    
+    position: relative;
+}
+
+
